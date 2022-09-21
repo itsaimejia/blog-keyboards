@@ -1,0 +1,37 @@
+.header{
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.8), rgb(0 0 0 / 0.7)), url('../public/img/kb-background.webp');
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.nav a:hover{
+    background-color: var(--hover__color);
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media (max-width:768px){
+    .bar{
+        flex-direction: column;
+    }
+}
