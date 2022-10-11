@@ -3,6 +3,7 @@
   --ocsure: #333;
   --hover__color:#457b9d;
 }
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;600&display=swap');
 
 html{
   font-size: 62.5%;
@@ -10,8 +11,6 @@ html{
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {

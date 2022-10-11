@@ -1,0 +1,29 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #1D1D1D;
+}
+
+.body__blog {
+    padding: 10rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title__date {
+    color: white;
+    padding: 1rem 0;
+}
+
+.content__post {
+    border: 1px solid #000000;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background-color: white;
+    padding: 2rem;
+}
+
+.description p {
+    font-size: 1.5rem;
+    color: gray;
+}
